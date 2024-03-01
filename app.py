@@ -4,7 +4,7 @@ load_dotenv() ## loading all the environments variable
 import streamlit as st 
 import os
 import google.generativeai as genai
-st.title("Papa Here")
+st.title("sureshwari")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 ##function to load gemini pro model and get respnses
